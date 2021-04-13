@@ -1,7 +1,6 @@
 import vlc, random, time, os
 os.chdir("C:\\Users\\fraze\\OneDrive\\Old\\Pin Project\\episode_parts")
 address = "C:\\Users\\fraze\\OneDrive\\Old\\Pin Project\\episode_parts\\"
-print(address)
 def duration(source):
     vlcInstance = vlc.Instance()
     player = vlcInstance.media_player_new()
